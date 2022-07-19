@@ -1,0 +1,57 @@
+body {
+    background-color:#f1faee;
+    margin:0em 0em 0em 0em;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#home , nav{
+    background-color: #1d3557;
+    
+}
+
+#home, .colored,  .nav-item, .navbar-toggler-icon{
+    color: #f1faee;
+}
+
+.colored {
+    background-color: #45789d;
+}
+
+.navbar {
+    padding: 0 0 1rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 1px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  
+.section {
+    height:100vh;
+}
+.title{
+    height:100vh;
+}
+.title-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
