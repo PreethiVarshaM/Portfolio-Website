@@ -11,16 +11,18 @@
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- CSS only -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css">
 
-  <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
-  <!-- Bootstrap Scripts -->
+  
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -53,45 +55,92 @@
     </div>
 
     <div id="about" class="section">
-      <h3>About</h3>
+      <h3 class="section-heading">About</h3>
 
       <div class="row">
-        <div class="col-lg-6"><img src="images/programmer.png" class="about-image"></div>
-        <div class="col-lg-6"><p>cwiehvoiefvoievwpcipwvnwkcbeivwb3obvepivbgfpievbefprv4ibv</p></div>
+        <div class="col-lg-6"><img src="images/clip-programming.png" class="about-image"></div>
+        <div class="col-lg-6" id="about-text">
+          this is about me. 
+
+          ----------------------------------------------------------------
+          --------------------------------------------------------------------------------------------------------------------------------
+          ---------------------------
+        </div>
       </div>
     </div>
 
     <div id="Skills-Tools" class="colored section"> 
-      <h3>Skills</h3>
-      <i class="fa-brands fa-css3-alt" style="color:black"></i>
+      <h3 class="section-heading">Skills</h3>
+
+      <div class="container-fluid" >
+
+        <div class="row">
+
+          <div class="feature-box col-lg-1.5 col-md-3 col-sm-6">
+            <img src="images/css3.png" class="skill-images">
+          </div>
+
+          <div class="feature-box col-lg-1.5 col-md-3 col-sm-6">
+            <img src="images/html5.png" class="skill-images">
+          </div>
+
+          <div class="feature-box col-lg-1.5 col-md-3 col-sm-6">
+            <img src="images/javascript.png" class="skill-images">
+          </div>
+
+          <div class="feature-box col-lg-1.5 col-md-3 col-sm-6">
+            <img src="images/nodejs.png" class="skill-images">
+          </div>
+
+          <div class="feature-box col-lg-1.5 col-md-3 col-sm-6">
+            <img src="images/java.png" class="skill-images">
+          </div>
+
+          <div class="feature-box col-lg-1.5 col-md-3 col-sm-6">
+            <img src="images/npm.png" class="skill-images">
+          </div>
+
+          <div class="feature-box col-lg-1.5 col-md-3 col-sm-6">
+            <img src="images/jquery.png" class="skill-images">
+          </div>
+
+          <div class="feature-box col-lg-1.5 col-md-3 col-sm-6">
+            <img src="images/python.png" class="skill-images">
+          </div>
+
+        </div>
+  
+  
+      </div>
     </div>
 
     <div id="works" class="section">
-      <h3>Works</h3>
-
+      <h3 class="section-heading">Works</h3>
       <div class="card-deck">
+
+        <div class="card">
+          <img src="images/computer.png" class="card-img-top" alt="Representation image">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"></p>
+          </div>
+        </div>
+
         <div class="card">
           <img src="images/computer.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"></p>
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="images/computer.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"></p>
           </div>
         </div>
       </div>
@@ -99,7 +148,7 @@
     </div>
 
     <div id="contact" class="colored section">
-      <h3>Contact</h3>
+      <h3 class="section-heading">Contact</h3>
       <div class="container-fluid">
         <i class="social-icon fab fa-facebook-f"></i>
         <i class="social-icon fab fa-twitter"></i>
