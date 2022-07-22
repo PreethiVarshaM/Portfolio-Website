@@ -19,7 +19,7 @@ body {
     padding-top:5%;
     padding-bottom:5%;
 }
-.about-image:hover { background-color:#a8dadc;border-radius: 50%;}
+.about-image:hover,.skill-images:hover { background-color:#a8dadc;border-radius: 50%;}
 
 .card-img-top {
     width: 100%;
@@ -90,7 +90,7 @@ font-size: 5rem;
 
 .skill-images{
     width:15vh;
-    margin:5%;
+    padding:5%;
 }
 
 #Skills-Tools .row{
